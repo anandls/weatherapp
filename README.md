@@ -54,7 +54,7 @@ Please clone the repo:
 
 #### `git clone https://github.com/anandls/weatherapp`
 
-#### `weatherapp`
+#### `cd weatherapp`
 
 Please run the command below, in the root folder of the project to install dependencies
 
