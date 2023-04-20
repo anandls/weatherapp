@@ -1,0 +1,26 @@
+/*=============================================
+=           HTML font                  =
+=============================================*/
+
+$outfit: "Outfit", sans-serif;
+
+html {
+  font-size: var(--full);
+  -webkit-text-size-adjust: var(--full);
+  -ms-text-size-adjust: var(--full);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--bg-primary);
+}
+
+/*=============================================
+=            Body font family                  =
+=============================================*/
+$body-font-family: var(--body-font-family, $outfit) !default;
+
+/*=============================================
+=            Body font sizes                  =
+=============================================*/
+
+$body-font-size: var(--body-font-size, --fs-base) !default;
+$body-font-weight: var(--body-font-weight, --fw-normal) !default;

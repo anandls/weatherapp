@@ -1,0 +1,56 @@
+:root {
+  // bg
+  --bg-primary: #ffffff; 
+  --bg-card: #9575cd;
+  --bg-label: #805fc2;
+
+  // text color
+    --body-color: #fff; 
+
+  // font sizes
+  --fs-xs: 0.75rem;
+  --fs-sm: 0.875rem;
+  --fs-base: 1rem; 
+  --fs-lg: 1.125rem;
+  --fs-xl: 1.4rem;
+  --fs-xxl: 3.125rem; 
+
+  // heading font sizes
+  --h-1: 1.6rem;
+  --h-2: 1.4rem;
+  --h-3: 1.20rem;
+
+  // font weights
+  --fw-light: 300;
+  --fw-normal: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+  --fw-extrabold: 800;
+  --fw-black: 900;
+
+  // spacing
+  --size-sm: 0.08rem; 
+  --size-md: 0.5rem; 
+  --size-lg: 0.75rem; 
+  --size-xl: 1rem; 
+  --size-xl2: 1.3rem; 
+  --size-xl3: 2.2rem; 
+  --size-xl4: 3rem; 
+  --size-xl5: 4rem; 
+
+  // widths
+  --card-width: 50em;
+  --inner-width: 90%;
+  --loader-width: 18%;
+  --full: 100%;
+
+  // heights
+  --h-sm: 3rem;
+  --h-md: 3.125rem;
+
+  // border radius
+  --border-radius-xs: 0.1rem; 
+  --border-radius-sm: 0.25rem; 
+  --border-radius-lg: 50%; 
+}

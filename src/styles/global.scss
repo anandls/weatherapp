@@ -1,0 +1,15 @@
+@import "./_reset.scss";
+@import "./_root.scss";
+@import "./_typography.scss";
+
+body {
+  font-family: $body-font-family;
+  font-size: $body-font-size;
+  font-weight: $body-font-weight;
+  color: var(--body-color);
+  line-height: (--size-xl2);
+}
+
+a {
+  color: var(--primary-color);
+}

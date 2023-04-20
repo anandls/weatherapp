@@ -1,0 +1,10 @@
+select {
+    width: var(--full);
+    height: var(--h-md);
+    font-size: var(--fs-lg);
+    padding-left: var(--size-xl2);
+    border-radius: 4px;
+    border: 2px solid lightblue;
+    background-color: #fff;
+    cursor: pointer;
+}

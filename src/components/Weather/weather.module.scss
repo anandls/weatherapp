@@ -1,0 +1,61 @@
+.current-weather-container {
+    margin-bottom: var(--size-xl3);
+
+    .conditions {
+        margin: 0 auto;
+        width: var(--inner-width);
+        text-align: center;
+
+        .temp {
+            font-size: var(--fs-xl);
+            font-weight: var(--fw-semibold);
+        }
+
+        .error {
+            padding: var(--size-xl5);
+        }
+
+        .day{
+            padding-top: var(--size-xl);
+            font-size: var(--fs-lg);
+            font-weight: var(--fw-medium);
+        }
+    }
+}
+
+.forecast-weather-container {
+    margin: 0 auto;
+    width: var(--inner-width);
+    text-align: center;
+
+    .forecast-headings {
+        background-color: var(--bg-label);
+    }
+
+    .forecast-info {
+        background-color: var(--bg-card);
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-top: var(--size-xl);
+        
+        .col {
+            text-align: center;
+
+            h3 {
+                font-size: calc(var(--h-3));
+                font-weight: var(--fw-semibold);
+            }
+
+            .row {
+                padding: var(--size-md);
+
+                .temp {
+                    font-size: var(--fs-xl);
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,13 @@
+.card {
+    width: var(--card-width);    
+    background-color: var(--bg-card);
+    padding: var(--size-xl3);
+    border-radius: var(--border-radius-sm);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+    color: var(--body-color);
+
+    .container {
+        align-items: center;      
+        margin-bottom: var(--size-xl3);
+    }
+}
