@@ -32,11 +32,11 @@ The main elements of the project consists of the structure below:
 ```
 
 - The `layout` folder houses a component that acts as a layout container for components found under `components`
-- The `libs` folder contains utilities for fetching data and uses the third party Axios library. It also contains custom messages (that are display in the UI) for error codes.
-- The `utils` folder contains utilities to manipulate strings, date and format weather data, that is returned to the UI.
+- The `libs` folder contains utilities for fetching data and uses the third party Axios library. It also contains custom messages (that are displayed in the UI) for error codes.
+- The `utils` folder contains utilities to manipulate strings, date and format weather data, returned to the UI.
 - CSS modules are used with CSS vars and SCSS for nesting CSS.
 - The `components` folder contains all componets used to render the UI and display data.
-- The `hooks` folder contains a single hook that is used to fetch and manage Current and Forecast data.
+- The `hooks` folder contains a single hook that is used to fetch and manage Current and Forecast data fetched.
 - The `constants` folder has defaults used in the app
 - The .env contains an important url endpoint (in REACT_APP_API_URL) and key (in REACT_APP_API_KEY). Your own key can be used but one will be provided via email for testing purposes.
 
@@ -44,16 +44,12 @@ The main elements of the project consists of the structure below:
 
 The application uses
 
-- Create React App to bootstrap the project
+- [Create React App](https://github.com/facebook/create-react-app) to bootstrap the project
 - The project uses the Axios and sass packages as additional dependencies
-
-## Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 Please clone the repo:
 
-#### `git clone https://github.com/anandls/weatherapp`
+#### `git clone https://github.com/anandls/weatherapp.git`
 
 #### `cd weatherapp`
 
