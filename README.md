@@ -50,6 +50,12 @@ The application uses
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Please clone the repo:
+
+#### `git clone https://github.com/anandls/weatherapp`
+
+#### `weatherapp`
+
 Please run the command below, in the root folder of the project to install dependencies
 
 #### `yarn`
