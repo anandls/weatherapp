@@ -2,7 +2,8 @@
 
 - The solution fetches data from a third party API (https://openweathermap.org/api) that provides world weather related data.
 - The application is a SPA with no additional routing and the default page renders components showing data for a default set city (this can be changed in the `constants`).
-- Subsequent selection of a city from the rendered dropdown, fetches and displays weather information for that city..
+- Subsequent selection of a city from the rendered dropdown, fetches and displays weather information for that city.
+- Please note : Icons were fetched from OpenWeather via an endpoint provided for the purpose and icons provided were not used.
 
 ## Table of contents
 
